@@ -1,0 +1,20 @@
+{
+  "version": "2026-09-01",
+  "program": "Stony Brook University Club Rowing",
+  "lastReviewed": "2026-09-01",
+  "status": "current information is published only when confirmed",
+  "resources": [
+    {"slug":"coaching","title":"Coaching Resources","summary":"Novice progression, technical drills, benchmarks, strength, coxswain development, equipment, and coaching philosophy","path":"#coaching"},
+    {"slug":"athletes","title":"New Rower & Athlete Guide","summary":"First days, practice rhythm, expectations, safety, and what to bring","path":"#athletes"},
+    {"slug":"parents","title":"Parent Guide","summary":"Season expectations, family support, costs and forms when confirmed","path":"#parents"},
+    {"slug":"regattas","title":"Regatta Hub","summary":"Race-day structure, travel, equipment, food, conduct, and family logistics","path":"#regattas"},
+    {"slug":"travel","title":"Travel & Packing","summary":"A confirmed-event framework for arrival, transportation, clothing, food, and equipment","path":"#travel"},
+    {"slug":"safety","title":"Safety & Equipment","summary":"Team movement, commands, fleet care, and readiness","path":"#safety"},
+    {"slug":"schedule","title":"Current Schedule","summary":"The 2026–27 schedule source, with details posted only after confirmation","path":"#schedule"},
+    {"slug":"recruiting","title":"Recruiting","summary":"How prospective athletes can learn about the program and start a conversation","path":"#recruiting"},
+    {"slug":"leadership","title":"Leadership & Alumni","summary":"Team roles, alumni connection, and ways to support the program","path":"#leadership"}
+  ],
+  "regattaFields": ["schedule","arrival","transportation","racing","clothing","food","equipment","conduct","parent logistics"],
+  "privateFieldsExcluded": ["attendance","rosters","responses","contracts","internal notes","personal contact information"]
+}
+
