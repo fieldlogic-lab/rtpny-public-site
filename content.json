@@ -1,26 +1,188 @@
 {
-  "version": "2026-09-02",
+  "version": "2026-09-03",
   "program": "Stony Brook University Club Rowing",
-  "lastReviewed": "2026-09-02",
+  "lastReviewed": "2026-09-03",
   "status": "current information is published only when confirmed",
   "resources": [
-    {"slug":"practice","title":"Practice & Conditions","summary":"Daily practice decision, training focus, and harbor conditions","audience":["athletes","parents"],"href":"https://port-jefferson-practice-check.timothyadammassi.chatgpt.site/","kind":"live tool"},
-    {"slug":"coaching","title":"Coaching Resources","summary":"Novice progression, technical drills, benchmarks, strength, coxswain development, equipment, and coaching philosophy","audience":["athletes","coaches"],"href":"https://www.rtpny.com/#coaching","kind":"public page"},
-    {"slug":"athletes","title":"New Rower & Athlete Guide","summary":"First days, practice rhythm, expectations, safety, and what to bring","audience":["athletes"],"href":"https://www.rtpny.com/#athletes","kind":"public page"},
-    {"slug":"parents","title":"Parent Guide","summary":"Season expectations, family support, costs and forms when confirmed","audience":["parents"],"href":"https://www.rtpny.com/#parents","kind":"public page"},
-    {"slug":"regattas","title":"Regatta Hub","summary":"Race-day structure, travel, equipment, food, conduct, and family logistics","audience":["athletes","parents"],"href":"https://www.rtpny.com/regattas.html","kind":"public page"},
-    {"slug":"nys-championships-2026","title":"NYS Championships 2026","summary":"Saratoga Springs race-weekend guide with timing, preparation, and packing","audience":["athletes","parents"],"href":"https://www.rtpny.com/regatta-nys-2026.html","kind":"public itinerary"},
-    {"slug":"liu-scrimmage-2025","title":"LIU Scrimmage 2025","summary":"Archived Port Washington race-day guide and cold-weather packing reference","audience":["athletes","parents"],"href":"https://www.rtpny.com/regatta-liu-2025.html","kind":"archived itinerary"},
-    {"slug":"nys-championships-2025","title":"NYS Championships 2025","summary":"Archived Queensbury race-weekend planning reference","audience":["athletes","parents"],"href":"https://www.rtpny.com/regatta-nys-2025.html","kind":"archived itinerary"},
-    {"slug":"head-of-the-fish-2024","title":"Head of the Fish 2024","summary":"Archived Saratoga head-race operations and readiness guide","audience":["athletes","parents"],"href":"https://www.rtpny.com/regatta-head-of-the-fish-2024.html","kind":"archived itinerary"},
-    {"slug":"travel","title":"Travel & Packing","summary":"A confirmed-event framework for arrival, transportation, clothing, food, and equipment","audience":["athletes","parents"],"href":"https://www.rtpny.com/#travel","kind":"public page"},
-    {"slug":"safety","title":"Safety & Equipment","summary":"Team movement, commands, fleet care, and readiness","audience":["athletes"],"href":"https://www.rtpny.com/#safety","kind":"public page"},
-    {"slug":"schedule","title":"Current Schedule","summary":"The 2026–27 schedule source, with details posted only after confirmation","audience":["athletes","parents"],"href":"https://www.rtpny.com/#schedule","kind":"public page"},
-    {"slug":"recruiting","title":"Recruiting","summary":"How prospective athletes can learn about the program and start a conversation","audience":["prospective athletes"],"href":"https://www.rtpny.com/#recruiting","kind":"public page"},
-    {"slug":"leadership","title":"Leadership & Alumni","summary":"Team roles, alumni connection, and ways to support the program","audience":["community"],"href":"https://www.rtpny.com/#leadership","kind":"public page"},
-    {"slug":"coach-app","title":"Coach App","summary":"Private coaching workspace for daily plans, notes, season arc, and resources","audience":["coaches"],"href":"https://crew.rtpny.com/","kind":"coach workspace"}
+    {
+      "slug": "practice",
+      "title": "Practice & Conditions",
+      "summary": "Daily practice decision, training focus, and harbor conditions",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://port-jefferson-practice-check.timothyadammassi.chatgpt.site/",
+      "kind": "live tool"
+    },
+    {
+      "slug": "coaching",
+      "title": "Coaching Resources",
+      "summary": "Novice progression, technical drills, benchmarks, strength, coxswain development, equipment, and coaching philosophy",
+      "audience": [
+        "athletes",
+        "coaches"
+      ],
+      "href": "https://www.rtpny.com/#coaching",
+      "kind": "public page"
+    },
+    {
+      "slug": "athletes",
+      "title": "New Rower & Athlete Guide",
+      "summary": "First days, practice rhythm, expectations, safety, and what to bring",
+      "audience": [
+        "athletes"
+      ],
+      "href": "https://www.rtpny.com/#athletes",
+      "kind": "public page"
+    },
+    {
+      "slug": "parents",
+      "title": "Parent Guide",
+      "summary": "Season expectations, family support, costs and forms when confirmed",
+      "audience": [
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/#parents",
+      "kind": "public page"
+    },
+    {
+      "slug": "regattas",
+      "title": "Regatta Hub",
+      "summary": "Race-day structure, travel, equipment, food, conduct, and family logistics",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/regattas.html",
+      "kind": "public page"
+    },
+    {
+      "slug": "nys-championships-2026",
+      "title": "NYS Championships 2026 · Archive",
+      "summary": "Archived Saratoga Springs race-weekend guide with timing, preparation, and packing",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/regatta-nys-2026.html",
+      "kind": "archived itinerary"
+    },
+    {
+      "slug": "liu-scrimmage-2025",
+      "title": "LIU Scrimmage 2025",
+      "summary": "Archived Port Washington race-day guide and cold-weather packing reference",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/regatta-liu-2025.html",
+      "kind": "archived itinerary"
+    },
+    {
+      "slug": "nys-championships-2025",
+      "title": "NYS Championships 2025",
+      "summary": "Archived Queensbury race-weekend planning reference",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/regatta-nys-2025.html",
+      "kind": "archived itinerary"
+    },
+    {
+      "slug": "head-of-the-fish-2024",
+      "title": "Head of the Fish 2024",
+      "summary": "Archived Saratoga head-race operations and readiness guide",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/regatta-head-of-the-fish-2024.html",
+      "kind": "archived itinerary"
+    },
+    {
+      "slug": "travel",
+      "title": "Travel & Packing",
+      "summary": "A confirmed-event framework for arrival, transportation, clothing, food, and equipment",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/#travel",
+      "kind": "public page"
+    },
+    {
+      "slug": "safety",
+      "title": "Safety & Equipment",
+      "summary": "Team movement, commands, fleet care, and readiness",
+      "audience": [
+        "athletes"
+      ],
+      "href": "https://www.rtpny.com/#safety",
+      "kind": "public page"
+    },
+    {
+      "slug": "schedule",
+      "title": "Current Schedule",
+      "summary": "Fall 2026 and Spring 2027 season framework, with daily details released through the Athlete App",
+      "audience": [
+        "athletes",
+        "parents"
+      ],
+      "href": "https://www.rtpny.com/#schedule",
+      "kind": "public page"
+    },
+    {
+      "slug": "recruiting",
+      "title": "Recruiting",
+      "summary": "How prospective athletes can learn about the program and start a conversation",
+      "audience": [
+        "prospective athletes"
+      ],
+      "href": "https://www.rtpny.com/#recruiting",
+      "kind": "public page"
+    },
+    {
+      "slug": "leadership",
+      "title": "Leadership & Alumni",
+      "summary": "Team roles, alumni connection, and ways to support the program",
+      "audience": [
+        "community"
+      ],
+      "href": "https://www.rtpny.com/#leadership",
+      "kind": "public page"
+    },
+    {
+      "slug": "coach-app",
+      "title": "Coach App",
+      "summary": "Private coaching workspace for daily plans, notes, season arc, and resources",
+      "audience": [
+        "coaches"
+      ],
+      "href": "https://crew.rtpny.com/",
+      "kind": "coach workspace"
+    }
   ],
-  "regattaFields": ["schedule","arrival","transportation","racing","clothing","food","equipment","conduct","parent logistics"],
-  "privateFieldsExcluded": ["attendance","rosters","responses","contracts","internal notes","personal contact information","raw email text","private mailbox links"]
+  "regattaFields": [
+    "schedule",
+    "arrival",
+    "transportation",
+    "racing",
+    "clothing",
+    "food",
+    "equipment",
+    "conduct",
+    "parent logistics"
+  ],
+  "privateFieldsExcluded": [
+    "attendance",
+    "rosters",
+    "responses",
+    "contracts",
+    "internal notes",
+    "personal contact information",
+    "raw email text",
+    "private mailbox links"
+  ]
 }
-
